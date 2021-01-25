@@ -1,0 +1,22 @@
+
+---
+# tasks file for roles/web
+- name: Installation de  Docker
+  apt:
+    name: docker-compose
+    state: latest
+    update_cache: true
+
+
+- name: ajout de l'utilisateur
+  user:
+    name: ubuntu
+    groups: docker
+    append: yes
+  become: yes
+
+
+- name: Clone du git du prof
+  git:
+    repo: "https://github.com/j0h3/cours_ynov"
+    dest: /home/ubuntu/cours_ynov
