@@ -2,12 +2,11 @@
 
 J'ai choisis le TP n°2
 
-TP 2
+Création d'un serveur Jenkins et de deux pipelines Techno : AWS, Terraform, Ansible, Docker, Jenkins
 
 
-Création d'un serveur Jenkins et de deux pipelines
-Techno : AWS, Terraform, Ansible, Docker, Jenkins
 Enoncés :
+
     Installation de Jenkins
     -----------------------
     - Code Terraform doit contenir :
